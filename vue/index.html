@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+    <title>Laravel Vue CRUD Application</title>
+ 
+</head>
+<body>
+
+<div id="app">
+	{{progress}}
+   <div class="progress-bar"
+   	style="widtprogressh:500px;height:75px;background-color:grey;
+   	padding: 5px;"
+       >
+       <div class="progress-bar"       
+       style="height:100%;background-color:red;
+      	"
+      	v-bind:style="{width:progress+'%'}"
+      		>
+        </div>
+
+       		<br>
+    </div>
+  <button @click="start">ooo</button>
+</div>
+
+<script src="https://unpkg.com/vue"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b22f4c97-bdaf-4ccb-8f76-f6a843726437" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/localhost/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="SiteController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/treasure/controllers/SiteController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="426">
+              <caret line="181" column="15" lean-forward="true" selection-start-line="181" selection-start-column="15" selection-end-line="181" selection-end-column="15" />
+              <folding>
+                <element signature="e#35#58#0#PHP" expanded="true" />
+                <element signature="e#361#971#0#PHP" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Article.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/treasure/models/Article.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="118" column="44" selection-start-line="118" selection-start-column="35" selection-end-line="118" selection-end-column="44" />
+              <folding>
+                <element signature="e#30#38#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="single.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/treasure/views/site/single.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="23" column="29" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Category.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/treasure/models/Category.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="596">
+              <caret line="66" column="36" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/treasure/modules/admin/views/category/index.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="category.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/treasure/views/site/category.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+              <folding>
+                <element signature="e#6#26#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tag.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/treasure/models/Tag.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/yii2/basic/models/TestForm.php" />
+        <option value="$PROJECT_DIR$/yii2/basic/controllers/PostController.php" />
+        <option value="$PROJECT_DIR$/yii2/basic/views/post/show.php" />
+        <option value="$PROJECT_DIR$/yii2/basic/migrations/m180909_161351_create_arcticle_table.php" />
+        <option value="$PROJECT_DIR$/yii2/basic/migrations/m180909_161412_create_category_table.php" />
+        <option value="$PROJECT_DIR$/yii2/basic/migrations/m180909_161430_create_tab_table.php" />
+        <option value="$PROJECT_DIR$/yii2/basic/migrations/m180909_161449_create_user_table.php" />
+        <option value="$PROJECT_DIR$/yii2/basic/migrations/m180909_161525_create_article_tag_table.php" />
+        <option value="$PROJECT_DIR$/yii2/basic/migrations/m180909_162210_create_add_date_to_comment.php" />
+        <option value="$PROJECT_DIR$/yii2/basic/migrations/m180909_161502_create_coment_table.php" />
+        <option value="$PROJECT_DIR$/yii2/basic/config/web.php" />
+        <option value="$PROJECT_DIR$/treasure/web/.htaccess" />
+        <option value="$PROJECT_DIR$/treasure/config/db.php" />
+        <option value="$PROJECT_DIR$/treasure/migrations/m180909_175900_create_article_table.php" />
+        <option value="$PROJECT_DIR$/treasure/migrations/m180909_175931_create_category_table.php" />
+        <option value="$PROJECT_DIR$/treasure/migrations/m180909_175948_create_tag_table.php" />
+        <option value="$PROJECT_DIR$/treasure/migrations/m180909_180004_create_user_table.php" />
+        <option value="$PROJECT_DIR$/treasure/migrations/m180909_180026_create_comment_table.php" />
+        <option value="$PROJECT_DIR$/treasure/migrations/m180909_180050_create_article_tag_table.php" />
+        <option value="$PROJECT_DIR$/treasure/config/web.php" />
+        <option value="$PROJECT_DIR$/treasure/modules/admin/Module.php" />
+        <option value="$PROJECT_DIR$/treasure/views/layouts/admin.php" />
+        <option value="$PROJECT_DIR$/treasure/modules/admin/views/article/_form.php" />
+        <option value="$PROJECT_DIR$/treasure/models/ImageUpload.php" />
+        <option value="$PROJECT_DIR$/treasure/modules/admin/views/article/index.php" />
+        <option value="$PROJECT_DIR$/treasure/modules/admin/views/article/image.php" />
+        <option value="$PROJECT_DIR$/treasure/modules/admin/views/article/category.php" />
+        <option value="$PROJECT_DIR$/treasure/modules/admin/views/article/view.php" />
+        <option value="$PROJECT_DIR$/treasure/modules/admin/views/article/tags.php" />
+        <option value="$PROJECT_DIR$/treasure/modules/admin/controllers/ArticleController.php" />
+        <option value="$PROJECT_DIR$/treasure/assets/AppAsset.php" />
+        <option value="$PROJECT_DIR$/treasure/views/layouts/main.php" />
+        <option value="$PROJECT_DIR$/treasure/web/markup/index.html" />
+        <option value="$PROJECT_DIR$/treasure/views/site/category.php" />
+        <option value="$PROJECT_DIR$/treasure/views/site/index.php" />
+        <option value="$PROJECT_DIR$/treasure/models/Category.php" />
+        <option value="$PROJECT_DIR$/treasure/models/Tag.php" />
+        <option value="$PROJECT_DIR$/treasure/controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/treasure/views/site/single.php" />
+        <option value="$PROJECT_DIR$/treasure/models/Article.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/treasure/vendor/bower-asset/bootstrap/package.json" />
+      <path value="$PROJECT_DIR$/treasure/vendor/bower-asset/inputmask/package.json" />
+      <path value="$PROJECT_DIR$/treasure/vendor/bower-asset/jquery/package.json" />
+      <path value="$PROJECT_DIR$/treasure/vendor/bower-asset/punycode/package.json" />
+      <path value="$PROJECT_DIR$/treasure/vendor/bower-asset/typeahead.js/package.json" />
+      <path value="$PROJECT_DIR$/treasure/vendor/bower-asset/yii2-pjax/package.json" />
+      <path value="$PROJECT_DIR$/yii/basic/vendor/bower-asset/bootstrap/package.json" />
+      <path value="$PROJECT_DIR$/yii/basic/vendor/bower-asset/inputmask/package.json" />
+      <path value="$PROJECT_DIR$/yii/basic/vendor/bower-asset/jquery/package.json" />
+      <path value="$PROJECT_DIR$/yii/basic/vendor/bower-asset/punycode/package.json" />
+      <path value="$PROJECT_DIR$/yii/basic/vendor/bower-asset/typeahead.js/package.json" />
+      <path value="$PROJECT_DIR$/yii/basic/vendor/bower-asset/yii2-pjax/package.json" />
+      <path value="$PROJECT_DIR$/yii2/basic/vendor/bower-asset/bootstrap/package.json" />
+      <path value="$PROJECT_DIR$/yii2/basic/vendor/bower-asset/inputmask/package.json" />
+      <path value="$PROJECT_DIR$/yii2/basic/vendor/bower-asset/jquery/package.json" />
+      <path value="$PROJECT_DIR$/yii2/basic/vendor/bower-asset/punycode/package.json" />
+      <path value="$PROJECT_DIR$/yii2/basic/vendor/bower-asset/typeahead.js/package.json" />
+      <path value="$PROJECT_DIR$/yii2/basic/vendor/bower-asset/yii2-pjax/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/localhost/vendor/htmlpurifier/tests" />
+      <path value="$PROJECT_DIR$/localhost/vendor/htmlpurifier/plugins" />
+      <path value="$PROJECT_DIR$/localhost/vendor/htmlpurifier/library" />
+      <path value="$PROJECT_DIR$/localhost/vendor/htmlpurifier/smoketests" />
+      <path value="$PROJECT_DIR$/localhost/vendor/htmlpurifier/extras" />
+      <path value="$PROJECT_DIR$/localhost/vendor/htmlpurifier/maintenance" />
+      <path value="$PROJECT_DIR$/localhost/vendor/htmlpurifier/configdoc" />
+      <path value="$PROJECT_DIR$/localhost/vendor/htmlpurifier/benchmarks" />
+      <path value="$PROJECT_DIR$/localhost/vendor/htmlpurifier/docs" />
+      <path value="$PROJECT_DIR$/localhost/vendor/htmlpurifier/art" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="18" />
+    <option name="width" value="1918" />
+    <option name="height" value="1039" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="domains" type="b2602c69:ProjectViewProjectNode" />
+              <item name="domains" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="domains" type="b2602c69:ProjectViewProjectNode" />
+              <item name="domains" type="462c0819:PsiDirectoryNode" />
+              <item name="treasure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="domains" type="b2602c69:ProjectViewProjectNode" />
+              <item name="domains" type="462c0819:PsiDirectoryNode" />
+              <item name="treasure" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="domains" type="b2602c69:ProjectViewProjectNode" />
+              <item name="domains" type="462c0819:PsiDirectoryNode" />
+              <item name="treasure" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="domains" type="b2602c69:ProjectViewProjectNode" />
+              <item name="domains" type="462c0819:PsiDirectoryNode" />
+              <item name="treasure" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="domains" type="b2602c69:ProjectViewProjectNode" />
+              <item name="domains" type="462c0819:PsiDirectoryNode" />
+              <item name="treasure" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="domains" type="b2602c69:ProjectViewProjectNode" />
+              <item name="domains" type="462c0819:PsiDirectoryNode" />
+              <item name="treasure" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="uploads" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="C:\Users\triest\AppData\Roaming\npm\node_modules\eslint" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\OSPanel\domains\treasure\web\public\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\OSPanel\domains\treasure\views\layouts" />
+      <recent name="E:\OSPanel\domains\treasure\modules\admin\views\article" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b22f4c97-bdaf-4ccb-8f76-f6a843726437" name="Default" comment="" />
+      <created>1536496306269</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536496306269</updated>
+      <workItem from="1536496315049" duration="8676000" />
+      <workItem from="1536515626952" duration="5174000" />
+      <workItem from="1536523961691" duration="6240000" />
+      <workItem from="1536599761576" duration="2564000" />
+      <workItem from="1536684301363" duration="694000" />
+      <workItem from="1536771220910" duration="16078000" />
+      <workItem from="1536855696100" duration="16940000" />
+      <workItem from="1536941276853" duration="8142000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="64508000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" visible="true" weight="0.31678987" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24479167" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/yii2/basic/modules/admin/controllers/ArticleController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii2/basic/models/Category.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii2/basic/models/CategorySearch.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii2/basic/migrations/m170124_021633_create_article_tag_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treasure/web/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii2/basic/models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii2/basic/models/Comment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii2/basic/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treasure/config/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treasure/migrations/m180909_175900_create_article_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treasure/migrations/m180909_175931_create_category_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treasure/migrations/m180909_175948_create_tag_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treasure/migrations/m180909_180004_create_user_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treasure/migrations/m180909_180026_create_comment_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1751">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treasure/modules/admin/Module.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treasure/config/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="56" column="23" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treasure/migrations/m180909_180050_create_article_tag_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="105" column="7" selection-start-line="105" selection-start-column="7" selection-end-line="105" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treasure/views/layouts/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="42" column="74" selection-start-line="42" selection-start-column="74" selection-end-line="42" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treasure/modules/admin/views/article/_search.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treasure/web/uploads/IMG_0005.jpg" />
+    <entry file="file://$PROJECT_DIR$/treasure/web/uploads/РР·РѕР±СЂР°Р¶РµРЅРёРµ 094.jpg" />
+    <entry file="file://$PROJECT_DIR$/treasure/web/uploads/IMG_0004.JPG" />
+    <entry file="file://$PROJECT_DIR$/treasure/web/uploads/f695a993e469eb5375d9bb97213541db.jpg" />
+    <entry file="file://$PROJECT_DIR$/treasure/views/site/about.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treasure/modules/admin/views/article/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treasure/web/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treasure/modules/admin/views/article/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treasure/modules/admin/views/article/image.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <element signature="e#7#28#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treasure/modules/admin/views/article/tags.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treasure/modules/admin/controllers/ArticleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3264">
+          <caret line="202" column="20" selection-start-line="202" selection-start-column="20" selection-end-line="202" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treasure/views/layouts/main-old.php" />
+    <entry file="file://$PROJECT_DIR$/treasure/assets/AppAsset.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treasure/assets/PublicAsset.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treasure/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treasure/views/site/contact.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treasure/web/markup/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1445">
+          <caret line="85" column="2" selection-start-line="85" selection-end-line="483" selection-end-column="6" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treasure/web/markup/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="79" column="5" selection-start-line="78" selection-start-column="3" selection-end-line="94" selection-end-column="18" />
+          <folding>
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treasure/models/ImageUpload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="57" column="23" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
+          <folding>
+            <element signature="e#34#42#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treasure/views/site/login.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treasure/modules/admin/views/article/category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="22" />
+          <folding>
+            <element signature="e#9#30#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treasure/modules/admin/views/article/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treasure/modules/admin/views/article/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="36" column="56" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treasure/models/Tag.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treasure/views/site/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treasure/models/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="118" column="44" selection-start-line="118" selection-start-column="35" selection-end-line="118" selection-end-column="44" />
+          <folding>
+            <element signature="e#30#38#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treasure/models/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="66" column="36" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treasure/modules/admin/views/article/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treasure/modules/admin/views/category/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treasure/views/site/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="58" column="73" selection-start-line="58" selection-start-column="53" selection-end-line="58" selection-end-column="73" />
+          <folding>
+            <element signature="e#6#26#0#PHP" expanded="true" />
+            <element signature="n#div#0;n#article#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treasure/views/site/category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+          <folding>
+            <element signature="e#6#26#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treasure/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="181" column="15" lean-forward="true" selection-start-line="181" selection-start-column="15" selection-end-line="181" selection-end-column="15" />
+          <folding>
+            <element signature="e#35#58#0#PHP" expanded="true" />
+            <element signature="e#361#971#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

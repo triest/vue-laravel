@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/localhost/vendor/htmlpurifier/tests" />
+      <path value="$PROJECT_DIR$/localhost/vendor/htmlpurifier/plugins" />
+      <path value="$PROJECT_DIR$/localhost/vendor/htmlpurifier/library" />
+      <path value="$PROJECT_DIR$/localhost/vendor/htmlpurifier/smoketests" />
+      <path value="$PROJECT_DIR$/localhost/vendor/htmlpurifier/extras" />
+      <path value="$PROJECT_DIR$/localhost/vendor/htmlpurifier/maintenance" />
+      <path value="$PROJECT_DIR$/localhost/vendor/htmlpurifier/configdoc" />
+      <path value="$PROJECT_DIR$/localhost/vendor/htmlpurifier/benchmarks" />
+      <path value="$PROJECT_DIR$/localhost/vendor/htmlpurifier/docs" />
+      <path value="$PROJECT_DIR$/localhost/vendor/htmlpurifier/art" />
+    </include_path>
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings load_method="CUSTOM_LOADER" custom_loader_path="$PROJECT_DIR$/localhost/vendor/autoload.php" />
+    </phpunit_settings>
+  </component>
+</project>

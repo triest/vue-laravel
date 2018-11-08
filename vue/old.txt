@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task List</title>
+    <meta charset="utf-8">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        /* The side navigation menu */
+        .sidenav {
+            height: 100%; /* 100% Full-height */
+            width: 0; /* 0 width - change this with JavaScript */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Stay on top */
+            top: 0;
+            left: 0;
+         /*  background-color: #111; *//* Black*/
+            background-color: #ffffff;
+            overflow-x: hidden; /* Disable horizontal scroll */
+            padding-top: 60px; /* Place content 60px from the top */
+            transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+        }
+
+        /* The navigation menu links */
+        .sidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #000000;
+            display: block;
+            transition: 0.3s;
+        }
+
+        /* When you mouse over the navigation links, change their color */
+        .sidenav a:hover{
+            color: #f1f1f1;
+        }
+
+        /* Position and style the close button (top right corner) */
+        .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+
+        /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+
+
+        /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+        @media screen and (max-height: 450px) {
+            .sidenav {padding-top: 15px;}
+            .sidenav a {font-size: 18px;}
+        }
+    </style>
+</head>
+<body>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
+<div class="container">
+    <div id="app6">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+        <!--одальное окно  -->
+
+
+        <div  ref="mySidenav" id="mySidenav" class="sidenav">
+            <a @click="closeNav" class="closebtn">&times;</a>
+            <input type="text" v-model="text" v-on:change="checInput(text)"  name="text" >
+            <button v-on:click="saveText" class="btn btn-default" v-bind:disabled="text === ''">Добавить задачу</button>
+        </div>
+
+        <!-- Use any element to open the sidenav -->
+        <button @click="openNav">open</button>
+
+    <button  @click="getUsers()">Get users</button>
+        <div v-if="active">
+            <h2>Hello World!</h2>
+        </div>
+
+
+    <table class="table table-condensed">
+        <thead>
+        <tr>
+            <th>id</th>
+            <th>task</th>
+            <th>date</th>
+        </tr>
+        </thead>
+        <tbody>
+
+        <tr v-for="row in tasks">
+
+                <td  @mouseover="butVue=true" @mouseleave="butVue=false">{{row.id}}</td>
+                <td>{{row.text}}</td>
+                <td>{{row.date_current}}</td>
+
+        </tr>
+
+        </tbody>
+    </table>
+
+
+        <v-client-table :columns="columns" :data="tasks" :options="options"
+
+    </div>
+<!--
+    <div id="app">
+        <div class="container">
+            <button class="btn btn-info"@click="showModal">show modal</button>
+            <example-modal ref="modal"></example-modal>
+        </div>
+    </div>
+-->
+
+
+
+
+</div>
+
+
+
+
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script type="text/javascript">
+
+    Vue.component('example-modal', {
+        template: '#example-modal',
+    })
+
+
+    new Vue({
+        el: '#app',
+        methods: {
+            showModal() {
+                let element = this.$refs.modal.$el
+                $(element).modal('show')
+            }
+        }
+    }),
+
+
+
+    //send post and open menu
+    new Vue({
+        el: '#app6',
+        data:{
+            tasks:[],
+            fields:[
+                'id','text','date',
+            ],
+            text:'',
+            active: true,
+            text2:'',
+            disabled:'disable',
+            ajaxRequest:false,
+            tasks:[],
+            fields:[
+                'id','text','date',
+            ],
+            showModal: true,
+            butVu:false,
+            columns:['id','text','date'],
+            options:{
+                headings:{
+                    id:'id',
+                    text:'text',
+                    date:'date'
+                }
+            }
+
+     //       requ:'';
+        },
+        methods: {
+            //open menu
+            openNav(){
+                /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+                var vm = this;
+                if (vm.$refs.mySidenav.style.width== "250px" ) {
+                    vm.$refs.mySidenav.style.width = "0px";
+                      vm.$refs.main.style.marginRight = "0px";
+                }
+                else {
+                    vm.$refs.mySidenav.style.width = "250px";
+                    vm.$refs.main.style.marginRight = "250px";
+                }
+
+            },
+            closeNav() {
+                /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+                var vm = this;
+                vm.$refs.mySidenav.style.width = "0";
+                vm.$refs.main.style.marginRight = "0";
+            }, //sav texp
+            saveText(){
+                this.text2=this.text;
+           //    console.log('sevein')
+            //    this.ajaxRequest=true;
+                console.log('input '+ this.text);
+            //    requ:{'text':this.text}
+                const data={
+                    text:this.text
+                }
+
+                axios.post('http://task.ru.xsph.ru/task.php',
+                  'text='+this.text
+                )
+                 .then(res => {
+                    console.log(res)
+                  //   this.closeNav()
+                     showModal: true
+                     this.getUsers()
+                     this.closeNav()
+
+                })
+                    .catch(error => {
+                        console.log(error)
+                     //   showModal: true
+                    //    this.closeNav()
+                        showModal:true
+                        this.getUsers()
+                    })
+
+            }, //end savetext
+            checInput(){
+                if(this.text.lenght==0){
+                    console.log('enpty')
+                    console.log(this.text)
+                    disabled=false
+                }
+                else {
+                    disabled=true
+                }
+                console.log('change text')
+            },
+            getUsers: function () {
+                axios
+                    .get('http://task.ru.xsph.ru/task.php')
+                    .then(
+                        response=> {
+                            console.log(response);
+                            this.tasks=response.data;
+                        }
+                    )
+                    .catch(
+                        error=>console.log(error)
+                    )
+            },
+            showModal() {
+                let element = this.$refs.modal.$el
+                $(element).modal('show')
+            }
+
+        }
+    })
+</script>
+
+
+
+ function getData() {
+        <!--
+      return [
+            {
+                'id': 1,
+                'text': 'sample1',
+                'email': 'sample1@example.com',
+                'group_name': 'Personnel Department'
+            },
+            {
+                'id': 2,
+                'name': 'sample2',
+                'email': 'sample2@example.com',
+                'group_name': 'Personnel Department'
+            },
+
+            {
+                'id': 3,
+                'name': 'sample3',
+                'email': 'sample3@example.com',
+                'group_name': 'Accounting department'
+            },
+            {
+                'id': 4,
+                'name': 'sample4',
+                'email': 'sample4@example.com',
+                'group_name': 'General Affairs Department'
+            }
+        ];
+        -->
+        axios
+            .get('http://task.ru.xsph.ru/task.php')
+            .then(
+                response=> {
+                    console.log(response);
+                    this.tasks=response.data;
+                }
+            )
+            .catch(
+                error=>console.log(error)
+            )
+
+
+        console.log(this.task)
+        return this.taskstask
+    }
+
+</body>
+</html>

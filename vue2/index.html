@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task List</title>
+	<meta charset="utf-8">
+</head>
+<body>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
+<div id="app">
+  {{ message }}
+</div>
+
+<script type="text/javascript" src="task.js"></script>
+
+<script type="text/javascript">
+var app = new Vue({
+  el: '#app',
+  data: {
+    message: 'Привет, Vue!'
+  }
+})
+</script>
+</body>
+</html>
