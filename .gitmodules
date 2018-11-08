@@ -1,0 +1,3 @@
+[submodule "tasks2/tasks2/tasks_first_sta"]
+	path = tasks2/tasks2/tasks_first_sta
+	url = https://github.com/triest/tasks_first_stage.git
